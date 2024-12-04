@@ -1,2 +1,1 @@
-# Ignore all input files.
-.txt
+**/*.txt 
