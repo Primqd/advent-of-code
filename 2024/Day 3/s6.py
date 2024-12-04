@@ -28,3 +28,5 @@ for mult_dont_sec in split_dont:
         split_do.extend(mult_do[1:]) # just incase multiple do()'s before don't()
 
 print(sum([process_sec(sec) for sec in split_do])) # calls process_sec on all verified sections and sums it up :)
+
+# hypothetically O(n), but it's like 2-3 pass
